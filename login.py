@@ -17,11 +17,11 @@ class StudioCode(unittest.TestCase):
         # Find and fill the email field
         email_field = self.driver.find_element_by_css_selector('#user_login')
         
-        email_field.send_keys('bilalw38@yahoo.com')
+        email_field.send_keys('your email')
         #Find and fill the password field
         password_field = self.driver.find_element_by_css_selector('#user_password')
         
-        password_field.send_keys('ARBIsoft!@3')
+        password_field.send_keys('your password')
         # Find and click the signin button
         signin_btn = self.driver.find_element_by_css_selector('#signin-button')
         signin_btn.click()
